@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/tonicPride/!svn/ver/225/trunk/REACH/Client/Core
+END
+IController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/35/trunk/REACH/Client/Core/IController.cs
+END
+IView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/tonicPride/!svn/ver/35/trunk/REACH/Client/Core/IView.cs
+END
+IModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/tonicPride/!svn/ver/35/trunk/REACH/Client/Core/IModel.cs
+END
+IService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/tonicPride/!svn/ver/35/trunk/REACH/Client/Core/IService.cs
+END

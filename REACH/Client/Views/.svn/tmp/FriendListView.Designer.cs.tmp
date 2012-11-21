@@ -1,0 +1,221 @@
+﻿namespace REACH.Client.Views
+{
+    partial class FriendListView
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.toggleStatusButton = new System.Windows.Forms.Button();
+            this.customStylesCheckbox = new System.Windows.Forms.CheckBox();
+            this.addFriendTextBox = new System.Windows.Forms.TextBox();
+            this.addFriendButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.invitingCheckBox = new System.Windows.Forms.CheckBox();
+            this.invitedCheckBox = new System.Windows.Forms.CheckBox();
+            this.offlineCheckBox = new System.Windows.Forms.CheckBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // toggleStatusButton
+            // 
+            this.toggleStatusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.toggleStatusButton.Location = new System.Drawing.Point(9, 24);
+            this.toggleStatusButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.toggleStatusButton.Name = "toggleStatusButton";
+            this.toggleStatusButton.Size = new System.Drawing.Size(94, 22);
+            this.toggleStatusButton.TabIndex = 1;
+            this.toggleStatusButton.Text = "Go Online";
+            this.toggleStatusButton.UseVisualStyleBackColor = true;
+            this.toggleStatusButton.Click += new System.EventHandler(this.toggleStatusButton_Click);
+            // 
+            // customStylesCheckbox
+            // 
+            this.customStylesCheckbox.AutoSize = true;
+            this.customStylesCheckbox.Checked = true;
+            this.customStylesCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.customStylesCheckbox.Location = new System.Drawing.Point(6, 122);
+            this.customStylesCheckbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.customStylesCheckbox.Name = "customStylesCheckbox";
+            this.customStylesCheckbox.Size = new System.Drawing.Size(128, 17);
+            this.customStylesCheckbox.TabIndex = 2;
+            this.customStylesCheckbox.Text = "Enable Custom Styles";
+            this.customStylesCheckbox.UseVisualStyleBackColor = true;
+            this.customStylesCheckbox.Visible = false;
+            this.customStylesCheckbox.CheckedChanged += new System.EventHandler(this.customStylesCheckbox_CheckedChanged);
+            // 
+            // addFriendTextBox
+            // 
+            this.addFriendTextBox.Location = new System.Drawing.Point(2, 2);
+            this.addFriendTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addFriendTextBox.Name = "addFriendTextBox";
+            this.addFriendTextBox.Size = new System.Drawing.Size(122, 20);
+            this.addFriendTextBox.TabIndex = 3;
+            this.addFriendTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.addFriendTextBox_KeyPress);
+            // 
+            // addFriendButton
+            // 
+            this.addFriendButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addFriendButton.Location = new System.Drawing.Point(2, 23);
+            this.addFriendButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addFriendButton.Name = "addFriendButton";
+            this.addFriendButton.Size = new System.Drawing.Size(122, 26);
+            this.addFriendButton.TabIndex = 4;
+            this.addFriendButton.Text = "Add Friend";
+            this.addFriendButton.UseVisualStyleBackColor = true;
+            this.addFriendButton.Click += new System.EventHandler(this.addFriendButton_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(9, 143);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Name = "panel1";
+<<<<<<< .mine
+            this.panel1.Size = new System.Drawing.Size(307, 253);
+=======
+            this.panel1.Size = new System.Drawing.Size(427, 311);
+>>>>>>> .r207
+            this.panel1.TabIndex = 7;
+            // 
+            // invitingCheckBox
+            // 
+            this.invitingCheckBox.AutoSize = true;
+            this.invitingCheckBox.Checked = true;
+            this.invitingCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.invitingCheckBox.Location = new System.Drawing.Point(261, 400);
+            this.invitingCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.invitingCheckBox.Name = "invitingCheckBox";
+            this.invitingCheckBox.Size = new System.Drawing.Size(60, 17);
+            this.invitingCheckBox.TabIndex = 2;
+            this.invitingCheckBox.Text = "Inviting";
+            this.invitingCheckBox.UseVisualStyleBackColor = true;
+            this.invitingCheckBox.CheckedChanged += new System.EventHandler(this.invitingCheckBox_CheckedChanged);
+            // 
+            // invitedCheckBox
+            // 
+            this.invitedCheckBox.AutoSize = true;
+            this.invitedCheckBox.Checked = true;
+            this.invitedCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.invitedCheckBox.Location = new System.Drawing.Point(203, 400);
+            this.invitedCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.invitedCheckBox.Name = "invitedCheckBox";
+            this.invitedCheckBox.Size = new System.Drawing.Size(58, 17);
+            this.invitedCheckBox.TabIndex = 1;
+            this.invitedCheckBox.Text = "Invited";
+            this.invitedCheckBox.UseVisualStyleBackColor = true;
+            this.invitedCheckBox.CheckedChanged += new System.EventHandler(this.invitedCheckBox_CheckedChanged);
+            // 
+            // offlineCheckBox
+            // 
+            this.offlineCheckBox.AutoSize = true;
+            this.offlineCheckBox.Checked = true;
+            this.offlineCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.offlineCheckBox.Location = new System.Drawing.Point(146, 400);
+            this.offlineCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.offlineCheckBox.Name = "offlineCheckBox";
+            this.offlineCheckBox.Size = new System.Drawing.Size(56, 17);
+            this.offlineCheckBox.TabIndex = 0;
+            this.offlineCheckBox.Text = "Offline";
+            this.offlineCheckBox.UseVisualStyleBackColor = true;
+            this.offlineCheckBox.CheckedChanged += new System.EventHandler(this.offlineCheckBox_CheckedChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.addFriendButton);
+            this.panel2.Controls.Add(this.addFriendTextBox);
+            this.panel2.Location = new System.Drawing.Point(6, 63);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(128, 56);
+            this.panel2.TabIndex = 9;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::REACH.Client.Properties.Resources.stickman;
+            this.pictureBox1.Location = new System.Drawing.Point(139, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+<<<<<<< .mine
+            this.pictureBox1.Size = new System.Drawing.Size(177, 127);
+=======
+            this.pictureBox1.Size = new System.Drawing.Size(252, 156);
+>>>>>>> .r207
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FriendListView
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+<<<<<<< .mine
+            this.ClientSize = new System.Drawing.Size(326, 417);
+=======
+            this.ClientSize = new System.Drawing.Size(451, 513);
+>>>>>>> .r207
+            this.Controls.Add(this.offlineCheckBox);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.invitedCheckBox);
+            this.Controls.Add(this.invitingCheckBox);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.customStylesCheckbox);
+            this.Controls.Add(this.toggleStatusButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Location = new System.Drawing.Point(800, 0);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.Name = "FriendListView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "FriendList";
+            this.Load += new System.EventHandler(this.FriendListView_Load);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button toggleStatusButton;
+        private System.Windows.Forms.CheckBox customStylesCheckbox;
+        private System.Windows.Forms.TextBox addFriendTextBox;
+        private System.Windows.Forms.Button addFriendButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.CheckBox invitingCheckBox;
+        private System.Windows.Forms.CheckBox invitedCheckBox;
+        private System.Windows.Forms.CheckBox offlineCheckBox;
+    }
+}

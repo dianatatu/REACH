@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Controller</Title>
+      <Shortcut>controller</Shortcut>
+      <Description>Controller Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>Name</ID>
+          <ToolTip>Name of the Controller.</ToolTip>
+          <Default>Name</Default>
+        </Object>
+
+        <Object>
+          <ID>ModelType</ID>
+          <ToolTip>Type of the Model associated with the Controller.</ToolTip>
+          <Default>ModelType</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+using REACH.Client.Base;
+using REACH.Client.Models;
+using REACH.Client.Views;
+using REACH.Common.Data;
+using REACH.Common.Base;
+using REACH.Common;
+
+namespace REACH.Client.Controllers
+{
+	public class $Name$Controller : ControllerBase<$ModelType$>
+	{
+		/* Constructor */
+		public $Name$Controller()
+		{
+			model = new $ModelType$();
+		}
+
+		public void RegisterHandlers()
+		{
+		}
+
+		public void UnregisterHandlers()
+		{
+		}
+		
+		/*
+		 * Events section
+		 */
+		#region events
+	
+		#endregion
+
+		/* 
+		 * Commands section 
+		 */
+		#region commands
+
+		#endregion
+
+		/* 
+		 * Trigger rules for callback functions 
+		 */
+		#region rules
+
+		#endregion
+
+		/* 
+		 * Callback functions section (for asynchronous actions).
+		 * These methods will be triggered by the Context. 
+		 */
+		#region callbacks
+
+		#endregion
+	}
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

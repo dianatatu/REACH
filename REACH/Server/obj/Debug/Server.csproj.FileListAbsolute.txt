@@ -1,0 +1,7 @@
+D:\tonicPride\trunk\REACH\Server\bin\Debug\Server.exe
+D:\tonicPride\trunk\REACH\Server\bin\Debug\Server.pdb
+D:\tonicPride\trunk\REACH\Server\bin\Debug\Common.dll
+D:\tonicPride\trunk\REACH\Server\bin\Debug\Common.pdb
+D:\tonicPride\trunk\REACH\Server\obj\Debug\ResolveAssemblyReference.cache
+D:\tonicPride\trunk\REACH\Server\obj\Debug\Server.exe
+D:\tonicPride\trunk\REACH\Server\obj\Debug\Server.pdb

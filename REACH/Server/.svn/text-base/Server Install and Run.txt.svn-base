@@ -1,0 +1,8 @@
+1. Install WampServer 2.1e (32 bits) from http://www.wampserver.com/en/download.php
+2. Run WampServer 
+3. Create database "reach"
+4. Import reach.sql into database "reach"
+5. Install Microsoft .NET Framework Version 3.5
+6. Download Connector/Net 6.2.4 from
+http://dev.mysql.com/downloads/connector/net/1.0.html#downloads
+7. Run server.exe

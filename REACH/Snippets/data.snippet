@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Data</Title>
+      <Shortcut>data</Shortcut>
+      <Description>Data Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>Name</ID>
+          <ToolTip>Name of the Data Object.</ToolTip>
+          <Default>Name</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+
+namespace REACH.Common.Data
+{
+    [Serializable]
+    public class $Name$Data
+    {
+    }
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

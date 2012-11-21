@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Commander</Title>
+      <Shortcut>commander</Shortcut>
+      <Description>Commander Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>Name</ID>
+          <ToolTip>Name of the Commander.</ToolTip>
+          <Default>Name</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+using System.Net.Sockets;
+
+using REACH.Common;
+using REACH.Common.Base;
+using REACH.Common.Data;
+using REACH.Server.Base;
+using REACH.Server.Connectors;
+
+namespace REACH.Server.Commanders
+{
+    /* Manages incoming messages for the $Name$ module */
+    public class $Name$Commander
+    {
+        /* 
+         * Lets the Commander know when to call the MessageHandlers
+         * in this class based on the value the corresponding
+         * TriggerRule returns on the given Message.
+         */
+        public static void RegisterHandlers()
+        {           
+        }
+    }
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

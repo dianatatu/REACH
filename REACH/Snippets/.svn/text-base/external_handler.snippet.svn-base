@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>External Handler</Title>
+      <Shortcut>external_handler</Shortcut>
+      <Description>Event Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>EventName</ID>
+          <ToolTip>Name of the Event.</ToolTip>
+          <Default>EventName</Default>
+        </Object>
+
+        <Object>
+          <ID>ControllerType</ID>
+          <ToolTip>Name of the Event.</ToolTip>
+          <Default>ControllerType</Default>
+        </Object>
+
+        <Object>
+          <ID>ModelType</ID>
+          <ToolTip>Type of the model associated with the view.</ToolTip>
+          <Default>ModelType</Default>
+        </Object>
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[controller.$EventName$ += new $ControllerType$.ExternalEventHandler(On$EventName$);
+        private void On$EventName$($ModelType$ model)
+		{
+			while (!this.IsHandleCreated);
+			if (this.InvokeRequired)
+			{
+				this.Invoke(($ControllerType$.ExternalEventHandler)
+					On$EventName$, model);
+				return;
+			}
+			// TODO
+		}]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

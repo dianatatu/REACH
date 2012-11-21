@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/tonicPride/!svn/ver/343/trunk/REACH/Server/Connectors
+END
+LogConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/tonicPride/!svn/ver/314/trunk/REACH/Server/Connectors/LogConnector.cs
+END
+Int64Connector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/tonicPride/!svn/ver/108/trunk/REACH/Server/Connectors/Int64Connector.cs
+END
+ResourceVoteConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/tonicPride/!svn/ver/233/trunk/REACH/Server/Connectors/ResourceVoteConnector.cs
+END
+DomainConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/tonicPride/!svn/ver/314/trunk/REACH/Server/Connectors/DomainConnector.cs
+END
+QuestionConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/297/trunk/REACH/Server/Connectors/QuestionConnector.cs
+END
+QuizItemConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/142/trunk/REACH/Server/Connectors/QuizItemConnector.cs
+END
+ResourceConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/343/trunk/REACH/Server/Connectors/ResourceConnector.cs
+END
+ValidationConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/tonicPride/!svn/ver/163/trunk/REACH/Server/Connectors/ValidationConnector.cs
+END
+FriendshipConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/tonicPride/!svn/ver/126/trunk/REACH/Server/Connectors/FriendshipConnector.cs
+END
+UserVoteConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/279/trunk/REACH/Server/Connectors/UserVoteConnector.cs
+END
+UserConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/325/trunk/REACH/Server/Connectors/UserConnector.cs
+END

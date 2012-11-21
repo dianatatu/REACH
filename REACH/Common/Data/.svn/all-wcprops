@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/tonicPride/!svn/ver/326/trunk/REACH/Common/Data
+END
+QuizSetData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/tonicPride/!svn/ver/142/trunk/REACH/Common/Data/QuizSetData.cs
+END
+ResourceVoteData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/tonicPride/!svn/ver/226/trunk/REACH/Common/Data/ResourceVoteData.cs
+END
+DomainData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/152/trunk/REACH/Common/Data/DomainData.cs
+END
+QuestionData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/326/trunk/REACH/Common/Data/QuestionData.cs
+END
+QuizItemData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/141/trunk/REACH/Common/Data/QuizItemData.cs
+END
+ResourceData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/253/trunk/REACH/Common/Data/ResourceData.cs
+END
+ValidationData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/tonicPride/!svn/ver/163/trunk/REACH/Common/Data/ValidationData.cs
+END
+FriendshipData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/tonicPride/!svn/ver/109/trunk/REACH/Common/Data/FriendshipData.cs
+END
+SayData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/tonicPride/!svn/ver/109/trunk/REACH/Common/Data/SayData.cs
+END
+UserVoteData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/264/trunk/REACH/Common/Data/UserVoteData.cs
+END
+UserData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/tonicPride/!svn/ver/266/trunk/REACH/Common/Data/UserData.cs
+END
+AnswerData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/201/trunk/REACH/Common/Data/AnswerData.cs
+END

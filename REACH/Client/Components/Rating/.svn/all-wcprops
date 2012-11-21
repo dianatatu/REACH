@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/tonicPride/!svn/ver/342/trunk/REACH/Client/Components/Rating
+END
+Rating.sln
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/tonicPride/!svn/ver/143/trunk/REACH/Client/Components/Rating/Rating.sln
+END
+Rating.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/220/trunk/REACH/Client/Components/Rating/Rating.csproj
+END
+RatingControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/tonicPride/!svn/ver/220/trunk/REACH/Client/Components/Rating/RatingControl.resx
+END
+RatingControl.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/tonicPride/!svn/ver/341/trunk/REACH/Client/Components/Rating/RatingControl.Designer.cs
+END
+RatingControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/tonicPride/!svn/ver/342/trunk/REACH/Client/Components/Rating/RatingControl.cs
+END

@@ -1,0 +1,7 @@
+D:\tonicPride\trunk\REACH\Client\Components\Rating\bin\Release\Rating.dll
+D:\tonicPride\trunk\REACH\Client\Components\Rating\bin\Release\Rating.pdb
+D:\tonicPride\trunk\REACH\Client\Components\Rating\obj\Release\ResolveAssemblyReference.cache
+D:\tonicPride\trunk\REACH\Client\Components\Rating\obj\Release\Rating.RatingControl.resources
+D:\tonicPride\trunk\REACH\Client\Components\Rating\obj\Release\Rating.csproj.GenerateResource.Cache
+D:\tonicPride\trunk\REACH\Client\Components\Rating\obj\Release\Rating.dll
+D:\tonicPride\trunk\REACH\Client\Components\Rating\obj\Release\Rating.pdb

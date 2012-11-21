@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Action</Title>
+      <Shortcut>action</Shortcut>
+      <Description>Action taken when a message comes to server.</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>ActionName</ID>
+          <ToolTip>Name of the Callback.</ToolTip>
+          <Default>ActionName</Default>
+        </Object>
+
+        <Object>
+          <ID>MESSAGE_TYPE</ID>
+          <ToolTip>MessageType associated with this type of action.</ToolTip>
+          <Default>MESSAGE_TYPE</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[Commander.RegisterTriggerRule($ActionName$, $ActionName$Rule);
+        /* The TriggerRule for the $ActionName$ MessageHandler 
+         * The message must be of $MESSAGE_TYPE$ type to be 
+         * handled by this MessageHandler.
+         */
+        private static Boolean $ActionName$Rule(RMessage message)
+        {
+            return message.Type == MessageType.$MESSAGE_TYPE$;
+        }
+
+        /* The $ActionName$ MessageHandler 
+         * It handles messages of $MESSAGE_TYPE$ type.
+         */
+        private static void $ActionName$(RMessage message, TcpClient connection)
+        {
+        }
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

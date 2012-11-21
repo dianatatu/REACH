@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views
+END
+LoginView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/153/trunk/REACH/Client/Views/LoginView.resx
+END
+ConversationView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/191/trunk/REACH/Client/Views/ConversationView.resx
+END
+AboutBox.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/tonicPride/!svn/ver/344/trunk/REACH/Client/Views/AboutBox.Designer.cs
+END
+QuestionAddView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/tonicPride/!svn/ver/322/trunk/REACH/Client/Views/QuestionAddView.resx
+END
+MyAccountView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/tonicPride/!svn/ver/328/trunk/REACH/Client/Views/MyAccountView.cs
+END
+AboutBox.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/tonicPride/!svn/ver/335/trunk/REACH/Client/Views/AboutBox.resx
+END
+NewAccountTestView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/tonicPride/!svn/ver/328/trunk/REACH/Client/Views/NewAccountTestView.Designer.cs
+END
+NewAccountView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/tonicPride/!svn/ver/305/trunk/REACH/Client/Views/NewAccountView.Designer.cs
+END
+DomainsView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/tonicPride/!svn/ver/283/trunk/REACH/Client/Views/DomainsView.resx
+END
+LoginView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/345/trunk/REACH/Client/Views/LoginView.cs
+END
+ConversationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/tonicPride/!svn/ver/228/trunk/REACH/Client/Views/ConversationView.cs
+END
+ShelfView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/322/trunk/REACH/Client/Views/ShelfView.resx
+END
+QuestionListView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/QuestionListView.resx
+END
+FriendListView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/tonicPride/!svn/ver/214/trunk/REACH/Client/Views/FriendListView.resx
+END
+QuestionAddView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/tonicPride/!svn/ver/199/trunk/REACH/Client/Views/QuestionAddView.cs
+END
+NewAccountTestView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/tonicPride/!svn/ver/156/trunk/REACH/Client/Views/NewAccountTestView.resx
+END
+NewAccountView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/tonicPride/!svn/ver/305/trunk/REACH/Client/Views/NewAccountView.resx
+END
+QuestionView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/tonicPride/!svn/ver/322/trunk/REACH/Client/Views/QuestionView.resx
+END
+LogoutView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/tonicPride/!svn/ver/288/trunk/REACH/Client/Views/LogoutView.resx
+END
+AboutBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/tonicPride/!svn/ver/335/trunk/REACH/Client/Views/AboutBox.cs
+END
+DomainsView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/333/trunk/REACH/Client/Views/DomainsView.cs
+END
+ShelfView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/344/trunk/REACH/Client/Views/ShelfView.Designer.cs
+END
+ShelfView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/308/trunk/REACH/Client/Views/ShelfView.cs
+END
+MyAccountView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/tonicPride/!svn/ver/317/trunk/REACH/Client/Views/MyAccountView.Designer.cs
+END
+FriendListView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/tonicPride/!svn/ver/344/trunk/REACH/Client/Views/FriendListView.Designer.cs
+END
+QuestionListView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/QuestionListView.Designer.cs
+END
+FriendListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/FriendListView.cs
+END
+QuestionListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/QuestionListView.cs
+END
+QuestionView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/tonicPride/!svn/ver/340/trunk/REACH/Client/Views/QuestionView.Designer.cs
+END
+NewAccountTestView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/328/trunk/REACH/Client/Views/NewAccountTestView.cs
+END
+NewAccountView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/tonicPride/!svn/ver/328/trunk/REACH/Client/Views/NewAccountView.cs
+END
+QuestionView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/tonicPride/!svn/ver/314/trunk/REACH/Client/Views/QuestionView.cs
+END
+LoginView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/LoginView.Designer.cs
+END
+ConversationView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/tonicPride/!svn/ver/346/trunk/REACH/Client/Views/ConversationView.Designer.cs
+END
+LogoutView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/tonicPride/!svn/ver/333/trunk/REACH/Client/Views/LogoutView.cs
+END
+MyAccountView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/tonicPride/!svn/ver/313/trunk/REACH/Client/Views/MyAccountView.resx
+END
+QuestionAddView.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/tonicPride/!svn/ver/344/trunk/REACH/Client/Views/QuestionAddView.Designer.cs
+END

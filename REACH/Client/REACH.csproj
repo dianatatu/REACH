@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9741C16C-2D05-4E51-AD10-516085C1141D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>REACH.Client</RootNamespace>
+    <AssemblyName>REACH</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>R_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Rating, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Components\Rating\bin\Release\Rating.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ControllerBase.cs" />
+    <Compile Include="Controllers\ConversationController.cs" />
+    <Compile Include="Controllers\DomainsController.cs" />
+    <Compile Include="Controllers\FriendListController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\LogoutController.cs" />
+    <Compile Include="Controllers\MyAccountController.cs" />
+    <Compile Include="Controllers\NewAccountController.cs" />
+    <Compile Include="Base\Context.cs" />
+    <Compile Include="Controllers\QuestionAddController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
+    <Compile Include="Controllers\QuestionListController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\ShelfController.cs" />
+    <Compile Include="Core\IController.cs" />
+    <Compile Include="Core\IModel.cs" />
+    <Compile Include="Core\IService.cs" />
+    <Compile Include="Core\IView.cs">
+    </Compile>
+    <Compile Include="Helpers\Md5Helper.cs" />
+    <Compile Include="Models\ConversationModel.cs" />
+    <Compile Include="Models\DomainListModel.cs" />
+    <Compile Include="Models\FriendListModel.cs" />
+    <Compile Include="Models\LoggedInUserModel.cs" />
+    <Compile Include="Models\NewAccountModel.cs" />
+    <Compile Include="Base\Service.cs" />
+    <Compile Include="Models\QuestionAddModel.cs" />
+    <Compile Include="Models\QuestionListModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\QuestionModel.cs" />
+    <Compile Include="Models\ShelfModel.cs" />
+    <Compile Include="ReachWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReachWindow.Designer.cs">
+      <DependentUpon>ReachWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConversationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ConversationView.Designer.cs">
+      <DependentUpon>ConversationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DomainsView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\FriendListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FriendListView.Designer.cs">
+      <DependentUpon>FriendListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LogoutView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\MyAccountView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MyAccountView.Designer.cs">
+      <DependentUpon>MyAccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewAccountTestView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\NewAccountTestView.Designer.cs">
+      <DependentUpon>NewAccountTestView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewAccountView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\NewAccountView.Designer.cs">
+      <DependentUpon>NewAccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReachWindow.resx">
+      <DependentUpon>ReachWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ConversationView.resx">
+      <DependentUpon>ConversationView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DomainsView.resx">
+      <DependentUpon>DomainsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FriendListView.resx">
+      <DependentUpon>FriendListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LogoutView.resx">
+      <DependentUpon>LogoutView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MyAccountView.resx">
+      <DependentUpon>MyAccountView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NewAccountTestView.resx">
+      <DependentUpon>NewAccountTestView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NewAccountView.resx">
+      <DependentUpon>NewAccountView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QuestionAddView.resx">
+      <DependentUpon>QuestionAddView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QuestionListView.resx">
+      <DependentUpon>QuestionListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QuestionView.resx">
+      <DependentUpon>QuestionView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShelfView.resx">
+      <DependentUpon>ShelfView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\QuestionAddView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QuestionAddView.Designer.cs">
+      <DependentUpon>QuestionAddView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuestionListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QuestionListView.Designer.cs">
+      <DependentUpon>QuestionListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuestionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QuestionView.Designer.cs">
+      <DependentUpon>QuestionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShelfView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ShelfView.Designer.cs">
+      <DependentUpon>ShelfView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{4A65054D-2346-4FB0-8053-793C9E4D97BB}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="R_Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

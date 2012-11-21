@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Model</Title>
+      <Shortcut>model</Shortcut>
+      <Description>Model Template.</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>ModelType</ID>
+          <ToolTip>Type of the Model.</ToolTip>
+          <Default>ModelType</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+
+using REACH.Client.Core;
+using REACH.Common.Data;
+
+namespace REACH.Client.Models
+{
+	public class $ModelType$ : IModel
+	{
+		public $ModelType$()
+		{
+		}
+	}
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

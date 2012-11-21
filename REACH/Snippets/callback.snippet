@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Callback</Title>
+      <Shortcut>callback</Shortcut>
+      <Description>Callback Function with associated Trigger Rule.</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>CallbackName</ID>
+          <ToolTip>Name of the Callback.</ToolTip>
+          <Default>CallbackName</Default>
+        </Object>
+
+        <Object>
+          <ID>MSG_TYPE</ID>
+          <ToolTip>Associated message type for the message.</ToolTip>
+          <Default>MSG_TYPE</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[Context.RegisterTriggerRule(On$CallbackName$, On$CallbackName$Rule);
+		Context.UnregisterTriggerRule(On$CallbackName$, On$CallbackName$Rule);
+		public bool On$CallbackName$Rule(RMessage message)
+		{
+			if (message.Type != MessageType.$MSG_TYPE$)
+				return false;			
+			return true;
+		}
+    
+    	public void On$CallbackName$(RMessage message)
+		{
+		}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

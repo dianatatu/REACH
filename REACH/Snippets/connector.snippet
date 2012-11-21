@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Connector</Title>
+      <Shortcut>connector</Shortcut>
+      <Description>Connector Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>Name</ID>
+          <ToolTip>Name of the Connector.</ToolTip>
+          <Default>Name</Default>
+        </Object>
+
+        <Object>
+          <ID>DataType</ID>
+          <ToolTip>Type of the Data associated with the Connector.</ToolTip>
+          <Default>DataType</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+
+using REACH.Common.Data;
+using REACH.Server.Base;
+
+namespace REACH.Server.Connectors
+{
+    public class $Name$Connector : ConnectorBase<$DataType$Data>
+    {       
+    }
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

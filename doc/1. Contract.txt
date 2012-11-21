@@ -1,0 +1,39 @@
+Membrii echipei:
+ - Tatu Diana - 334CA - diana.tatu@gmail.com
+ - Daniela Vatamanu - 334CA - daniela.vatamanu@gmail.com
+ - Bogdan Purcareata - 331CA - bogdan.purcareata@gmail.com
+ - Filip Buruiana - 334CA - filip.buruiana@gmail.com
+ - Valentin Dobrota - 334CA - valydo@gmail.com
+
+Numele indrumatorului: Georgiana Tudorie
+
+Descriere proiect:
+
+REACH - Realtime Enlightenment and Community Help
+
+REACH este un loc de intalnire pasionatilor de tehnologie, care pot cere ajutor in timp real despre probleme tehnice si pot discuta pe teme variate. Gruparea tematica ofera utilizatorului acces la ultimele discutii, legaturi si alte materiale adaugate de membrii comunitatii.
+
+== Facilitati propuse: ==
+= Discutii =
+Discutie = conversatie intrebare-raspuns (cu replici)
+Sistem realtime de postare si raspundere intrebari (de discutii) - Instant messaging
+Intrebarile au taguri si optional, nivele de dificultate. Ex: PHP, Apache [mid-level]
+Discutiile sunt publicate si pe server-pagina web (pot fi astfel indexate de motoarele de cautare) daca cel care a pus intrebarea si cel care a postat intrebarea sunt de acord.
+La postarea unei intrebari snippeturile de cod vor avea syntax highlight si alte optiuni.
+La intrebari oferim si documentatie in cadrul programului (documentatia unei functii dintr-un anumit limbaj de exemplu)
+La intrebari sa iti ofere si niste discutii mai vechi pe aceeasi tema care sa fie cat mai relevante. Se evita astfel duplicarea de intrebari.
+Intrebarile sunt intr-un pool tematic si userii care vor sa raspunda iau din poolul de intrebari fara raspuns
+= Useri: =
+Selectie useri: chestionar generic pentru admitere
+Userii pot selecta la ce taguri sa primeasca intrebari [ + nivel dificultate]
+Lista de contacte
+Instant Messaging separat de sistemul intrebare-raspuns
+Profil user
+Sistem rating useri (rating la raspunsuri, nr ore online)
+= Lounge tematic:  =
+un chat unde discuta toti cei interesati
+Shelf: documentatie, video docs - adaugate de utilizatori
+Noutati: ultimele discutii pe acea temaLa intrebari se poate raspunde si offline
+= Alte idei de componente: = 
+Interfatare IRC: utilizatorii pot discuta si pe canale IRC, le sugeram anumite canale relevante
+Intefatare IRC inversa: utilizatorii IRC pot raspunde si intreba utlizatorii REACH.

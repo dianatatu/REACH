@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/tonicPride/!svn/ver/316/trunk/REACH/Server/Base
+END
+ServerCore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/248/trunk/REACH/Server/Base/ServerCore.cs
+END
+Commander.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/tonicPride/!svn/ver/248/trunk/REACH/Server/Base/Commander.cs
+END
+ConnectorBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/tonicPride/!svn/ver/200/trunk/REACH/Server/Base/ConnectorBase.cs
+END
+ClientWorker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/316/trunk/REACH/Server/Base/ClientWorker.cs
+END
+SqlConnector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/200/trunk/REACH/Server/Base/SqlConnector.cs
+END

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Event</Title>
+      <Shortcut>event</Shortcut>
+      <Description>Event Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>EventName</ID>
+          <ToolTip>Name of the Event.</ToolTip>
+          <Default>EventName</Default>
+        </Object>
+
+      </Declarations>
+
+      <Code Language="CSharp">
+        <![CDATA[public event ExternalEventHandler $EventName$;]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>View</Title>
+      <Shortcut>view</Shortcut>
+      <Description>View Template</Description>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Object>
+          <ID>Name</ID>
+          <ToolTip>Name of the View.</ToolTip>
+          <Default>Name</Default>
+        </Object>
+
+        <Object>
+          <ID>ControllerType</ID>
+          <ToolTip>Type of the Controller associated with the View.</ToolTip>
+          <Default>ControllerType</Default>
+        </Object>
+
+      </Declarations>
+      
+      <Code Language="CSharp">
+        <![CDATA[using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+using REACH.Client.Core;
+using REACH.Client.Base;
+using REACH.Client.Models;
+using REACH.Client.Controllers;
+using REACH.Common.Base;
+using REACH.Common.Data;
+
+namespace REACH.Client.Views
+{
+	public partial class $Name$View : Form, IView
+	{
+		private $ControllerType$ controller;
+
+		public delegate void EmptyFunction();
+    
+		public $Name$View()
+		{
+			// Create the controller
+			controller = new $ControllerType$();
+			
+			// Handlers for external events
+      
+      // Register the controller handlers to the service
+      controller.RegisterHandlers();
+      
+			// Initialize Component
+			InitializeComponent();
+
+			// Set the parent and display the window
+			SetMdiParent();
+			ShowForm();
+
+			// Handlers for internal events			
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(OnFormClosing);			
+		}
+    
+		private void SetMdiParent()
+		{
+			ReachWindow f = (ReachWindow)Context.EntryPoint;
+			if (f.InvokeRequired)
+			{
+				f.Invoke((EmptyFunction)SetMdiParent, null);
+				return;
+			}
+			this.MdiParent = f;
+		}
+
+		public void ShowForm()
+		{
+			if (this.InvokeRequired)
+			{
+				this.Invoke((EmptyFunction)ShowForm, null);
+				return;
+			}
+			this.Show();
+		}    
+		
+		/*
+		 * Handlers for internal events
+		 */
+		#region internal_events
+
+		private void OnFormClosing(object sender, FormClosingEventArgs e)
+        {
+            controller.UnregisterHandlers();
+        }
+		
+		#endregion
+
+		
+		/*
+		 * Handlers for external events
+		 */
+		#region external_events
+
+		#endregion				
+  }
+}
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/tonicPride/!svn/ver/135/trunk/REACH/Snippets
+END
+external_handler.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/tonicPride/!svn/ver/127/trunk/REACH/Snippets/external_handler.snippet
+END
+model.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/tonicPride/!svn/ver/78/trunk/REACH/Snippets/model.snippet
+END
+event.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/tonicPride/!svn/ver/59/trunk/REACH/Snippets/event.snippet
+END
+controller.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tonicPride/!svn/ver/129/trunk/REACH/Snippets/controller.snippet
+END
+commander.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/tonicPride/!svn/ver/108/trunk/REACH/Snippets/commander.snippet
+END
+data.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/tonicPride/!svn/ver/109/trunk/REACH/Snippets/data.snippet
+END
+connector.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/tonicPride/!svn/ver/108/trunk/REACH/Snippets/connector.snippet
+END
+view.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/tonicPride/!svn/ver/135/trunk/REACH/Snippets/view.snippet
+END
+callback.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tonicPride/!svn/ver/132/trunk/REACH/Snippets/callback.snippet
+END
+action.snippet
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/tonicPride/!svn/ver/127/trunk/REACH/Snippets/action.snippet
+END
